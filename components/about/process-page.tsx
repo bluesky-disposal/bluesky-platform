@@ -44,7 +44,7 @@ const processSteps = [
     number: 4,
     title: "We Deliver",
     description:
-      "Our professional team delivers the dumpster to your specified location",
+      "Our professional team delivers the dumpster to your specified address",
     icon: Truck,
     image:
       "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",

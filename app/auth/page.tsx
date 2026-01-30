@@ -58,7 +58,7 @@ export default function AuthPage() {
       icon: HardHat,
       title: "Contractor/Builder",
       description: "Construction site solutions",
-      benefits: ["Project pricing", "Site management", "Multiple locations"]
+      benefits: ["Project pricing", "Site management", "Multiple Zip codes"]
     }
   ];
 

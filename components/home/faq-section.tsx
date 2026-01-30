@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 const faqs = [
   {
     question: "How much is a dumpster rental?",
-    answer: "Pricing depends on the dumpster size, rental period, and your location. Contact us for a free, transparent quote."
+    answer: "Pricing depends on the dumpster size, rental period, and your address. Contact us for a free, transparent quote."
   },
   {
     question: "What size dumpster do I need?",

@@ -19,12 +19,12 @@ export default function FAQPage() {
     {
       id: 'q3',
       question: 'Do I need a permit to place a dumpster on my property?',
-      answer: 'Permit requirements depend on your location. Some areas require permits for dumpsters placed on public property or roads. We can help you navigate permit requirements and can often assist with the application process.',
+      answer: 'Permit requirements depend on your address. Some areas require permits for dumpsters placed on public property or roads. We can help you navigate permit requirements and can often assist with the application process.',
     },
     {
       id: 'q4',
       question: 'What is the cost of renting a dumpster?',
-      answer: 'Pricing depends on dumpster size, rental period, and your location. We offer competitive rates with no hidden fees. Contact us for a free quote tailored to your project needs.',
+      answer: 'Pricing depends on dumpster size, rental period, and your address. We offer competitive rates with no hidden fees. Contact us for a free quote tailored to your project needs.',
     },
     {
       id: 'q5',
@@ -44,7 +44,7 @@ export default function FAQPage() {
     {
       id: 'q8',
       question: 'Do you service my area?',
-      answer: 'We service over 50 cities in Michigan and surrounding areas. Use our service availability checker on our website to see if we deliver to your location, or contact us directly.',
+      answer: 'We service over 50 cities in Michigan and surrounding areas. Use our service availability checker on our website to see if we deliver to your address, or contact us directly.',
     },
   ]
 

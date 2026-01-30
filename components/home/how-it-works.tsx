@@ -29,7 +29,7 @@ const steps = [
   {
     number: 4,
     title: "We Deliver",
-    description: "Our professional team delivers the dumpster to your specified location",
+    description: "Our professional team delivers the dumpster to your specified address",
     icon: Truck,
     image: "https://images.unsplash.com/photo-1613199928741-1a757b32ffc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
   },

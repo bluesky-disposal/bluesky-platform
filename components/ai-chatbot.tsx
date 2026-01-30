@@ -41,7 +41,7 @@ export function AIChatbot() {
     'area': 'We provide service in 50+ cities. Please check our coverage area on the Services page or contact us directly.',
     'rental': 'Our rental periods are flexible. Typically, we offer daily, weekly, and monthly rental options. Please contact us for specific details.',
     'payment': 'We accept credit cards, debit cards, bank transfers, and digital payments. All transactions are secure.',
-    'delivery': 'Yes, we provide delivery and pickup services as part of our dumpster rental. Delivery time depends on your location.',
+    'delivery': 'Yes, we provide delivery and pickup services as part of our dumpster rental. Delivery time depends on your address.',
     'hello': 'Hello! How can I help you with Blue Sky Disposal services today?',
     'hi': 'Hi there! What can I help you with?',
     'help': 'I can help you with information about our dumpster rentals, pricing, booking, services, and more. What would you like to know?',

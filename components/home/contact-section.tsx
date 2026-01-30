@@ -23,7 +23,7 @@ export default function ContactSection() {
               />
             </div>
             <p className="mt-6 text-gray-600 leading-relaxed">
-              We proudly serve the greater Michigan area, providing reliable dumpster rental services to homeowners, contractors, and businesses across the region. Check our service map or call us to verify coverage in your specific location.
+              We proudly serve the greater Michigan area, providing reliable dumpster rental services to homeowners, contractors, and businesses across the region. Check our service map or call us to verify coverage in your specific address.
             </p>
           </div>
 

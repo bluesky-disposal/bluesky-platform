@@ -1,7 +1,7 @@
 -- =========================================================
 -- Migration: zip_codes
 -- File: 019_zip_codes.sql
--- Purpose: Zip codes with geolocation and county mapping
+-- Purpose: Zip codes with geoaddress and county mapping
 -- Depends on: counties
 -- =========================================================
 
