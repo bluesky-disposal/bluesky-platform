@@ -8,7 +8,7 @@
 -- 1️⃣ Table creation
 create table if not exists zip_codes (
   id uuid primary key default gen_random_uuid(),
-  zip text not null,
+  zip_code text not null,
   county_id uuid references counties(id),
   city text not null,
   lat numeric,
