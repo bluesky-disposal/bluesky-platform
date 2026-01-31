@@ -1,46 +1,39 @@
 "use client";
 
+import Image, { ImageProps } from "next/image";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 
-interface ImageWithFallbackProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+interface ImageWithFallbackProps
+  extends Omit<ImageProps, "src" | "alt"> {
   src: string;
   alt: string;
-  className?: string;
   fallbackSrc?: string;
+  className?: string;
 }
 
-function ImageWithFallback({
+export function ImageWithFallback({
   src,
   alt,
-  className,
   fallbackSrc = "/images/placeholder.png",
+  className,
   ...props
 }: ImageWithFallbackProps) {
   const [imgSrc, setImgSrc] = useState(src);
-  const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <img
-      src={imgSrc}
-      alt={alt}
-      className={cn(
-        "transition-opacity duration-300",
-        isLoading ? "opacity-0" : "opacity-100",
-        className
-      )}
-      onLoad={() => setIsLoading(false)}
-      onError={() => {
-        setImgSrc(fallbackSrc);
-        setIsLoading(false);
-      }}
-      {...props}
-    />
+    <div className={cn("relative w-full h-full", className)}>
+      <Image
+        {...props}
+        src={imgSrc}
+        alt={alt}
+        fill
+        sizes="(max-width: 768px) 96px, 112px"
+        className="object-cover"
+        onError={() => setImgSrc(fallbackSrc)}
+      />
+    </div>
   );
 }
 
-// Export as default (for: import ImageWithFallback from "...")
 export default ImageWithFallback;
-
-// Also export as named export (for: import { ImageWithFallback } from "...")
-export { ImageWithFallback };
